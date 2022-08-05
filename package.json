@@ -1,0 +1,28 @@
+{
+  "name": "proyecto-async",
+  "version": "1.0.0",
+  "description": "proyecto del curso de asincronismo-actualizado",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy":"gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/villafrade/proyecto-async.git"
+  },
+  "keywords": [],
+  "author": "Carlos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/villafrade/proyecto-async/issues"
+  },
+  "homepage": "https://github.com/villafrade/proyecto-async#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  },
+  "type": "module",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
